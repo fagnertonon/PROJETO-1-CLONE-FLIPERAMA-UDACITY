@@ -1,11 +1,6 @@
-frontend-nanodegree-arcade-game
-===============================
-
-
 # CLONE FLIPERAMA NANODEGRE WEB FRONT-END AVANÇADO
 
     Projeto desenvolvimento no curso com intuito de entender os conceitos de orientação a objetos em javascript
-
 
 ## O JOGO
 
