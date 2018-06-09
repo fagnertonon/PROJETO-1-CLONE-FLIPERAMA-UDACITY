@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+
+#painel{
+    border: 5px; border-style: solid;
+    border-color: green;
+    background-color: cornsilk; 
+    height: 90px; 
+    margin: 5px 165px 5px 165px;
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  text-align: center;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  'header header header header header header' 
+  'left left middle middle right right' 
+} 
+
+.left,
+.middle,
+.right {
+
+  height: 150px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+}
